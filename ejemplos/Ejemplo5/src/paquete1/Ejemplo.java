@@ -32,6 +32,7 @@ public class Ejemplo {
             System.out.printf("Resultado %s\n", mensajeUno);
         } else {
             System.out.printf("Resultado %s\n", mensajeDos);
+            // lo que utilizamos aqui es el modulo :)
         }
 
     }

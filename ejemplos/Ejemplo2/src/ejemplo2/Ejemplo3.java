@@ -36,6 +36,7 @@ public class Ejemplo3 {
         System.out.println("Ingrese el nota 2, por favor");
         nota2 = entrada.nextDouble();
         suma = nota1 + nota2;
+        //
         promedio = suma / 2;
         
         if (promedio >= 7.5) {

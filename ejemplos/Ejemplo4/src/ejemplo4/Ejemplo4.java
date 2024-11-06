@@ -27,6 +27,8 @@ public class Ejemplo4 {
         //F           or          //F         >>>>> F
         if (ciudad.equals("Loja") || ciudad.equals("Machala") || 
                 ciudad.equals("Guayaquil")) {
+            // el equals sirve para que sean las dos cosas iguales
+           
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");

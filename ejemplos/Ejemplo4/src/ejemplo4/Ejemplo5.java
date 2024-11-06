@@ -25,9 +25,12 @@ public class Ejemplo5 {
         String ciudad = entrada.nextLine(); // Quito
 
         if (!ciudad.equals("Loja")) {
+            // estamos negando una cadena
+            
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
+            
         }
 
         int numero = 10;

@@ -31,6 +31,7 @@ public class Ejemplo3 {
                     + "promedio: %.2f\n", promedio);
         } else {
             if ((promedio >= 5) && (promedio < 7.5)) {
+                // no se utiiza el or por que no cumple con las condiciones
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
             } else {
